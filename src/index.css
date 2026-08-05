@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Clase compartida por todos los <input>/<select> de formularios (login, registro, CRUD empleados) */
+@layer components {
+  .input {
+    @apply w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none;
+  }
+}
